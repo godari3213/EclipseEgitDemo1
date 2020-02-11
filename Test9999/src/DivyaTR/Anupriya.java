@@ -8,7 +8,7 @@ WebDriver driver;
 
 public void launching()
 {
-
+System.out.println("hi mr srinivas");
 System.setProperty("webdriver.chrome.driver","C:\\Drivers\\Drivers\\chromedriver.exe");
 driver = new ChromeDriver();
 driver.get("http://10.243.204.12:8083/TestMeApp");
